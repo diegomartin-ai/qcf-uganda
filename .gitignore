@@ -1,0 +1,28 @@
+# Data — never publish
+01-data/
+07-share_with_coauthor/raw/
+*.csv
+*.xlsx
+*.xls
+
+# External PDFs (papers by others)
+04-pluses-scripts/aap/*.pdf
+00-intial docs/
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.nav
+*.snm
+*.toc
+*.synctex.gz
+
+# OS files
+.DS_Store
+**/.DS_Store
+
+# Archive drafts (keep only current)
+06-drafts/archive/
